@@ -96,13 +96,12 @@ So this is the required answer.
 ## How to Use?
 
 This system is completely menu-driven. When you run the **C Application**, it will guide you through the process and display the final output.  
-You only need to provide the input data, and the application will take care of the calculations and optimizations.
+Below is the execution of our current example:
 
----
+![Screenshot_2024-11-26_145655 1](https://github.com/user-attachments/assets/a0dc78c2-5e93-4b67-8400-7794123374a5)
 
-### Example Execution
+![WhatsApp Image 2024-11-26 at 14 58 33_46250607](https://github.com/user-attachments/assets/048bd076-ad7d-4fa2-98f7-9ce5eb43e344)
 
-_(Insert the terminal screenshot or sample output here to demonstrate the system in action.)_
 
 ---
 
