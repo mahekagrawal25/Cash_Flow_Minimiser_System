@@ -1,20 +1,6 @@
 /*
-DS Mini Project
 Design an application using different data structures to provide a solution for any real-world problem
-
-Topic: Cash Flow Minimizer System
-
-Batch: I3
-Group No: 2
-
-Group Members:
- o UIT2023804 - Mahek Agrawal
- o UIT2023812 - Sejal Barapatre
- o UIT2023817 - Sneha Chavan
- o UIT2023852 - Manisha Patil
- 
 */
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -218,50 +204,5 @@ void minimizeCashFlow(int numBanks, Bank input[], int graph[MAX_BANKS][MAX_BANKS
 }
 
 
-/*
-OUTPUT:
-
-********************* Welcome to CASH FLOW MINIMIZER SYSTEM ***********************
-
-This system minimizes the number of transactions among multiple banks...
-Enter the number of banks participating in the transactions: 6
-
-Payment modes: GPay, PhonePe, Paytm, Amazon_Pay, PayPal
-
-Enter the details of the banks:
-Bank 1 name and number of payment modes:
-SBI 1 Paytm
-Bank 2 name and number of payment modes:
-ICICI 3 GPay Paytm Amazon_Pay
-Bank 3 name and number of payment modes:
-HDFC 2 GPay Amazon_Pay
-Bank 4 name and number of payment modes:
-Wells_Fargo 1 Amazon_Pay
-Bank 5 name and number of payment modes:
-Axis 2 GPay Paytm
-Bank 6 name and number of payment modes:
-BOI 2 Amazon_Pay Paytm
-
-
-Enter the number of transactions: 9
-
-Enter the details of transactions (debtor, creditor, amount):
-SBI ICICI 100
-SBI HDFC 300
-SBI Wells_Fargo 100
-SBI Axis 100
-ICICI HDFC 400
-HDFC Wells_Fargo 200
-Wells_Fargo Axis 500
-BOI ICICI 300
-BOI Wells_Fargo 100
-
-The transactions for minimum cash flow are as follows:
-
-SBI pays Rs 600 to Axis via Paytm
-Wells_Fargo pays Rs 100 to HDFC via Amazon_Pay
-BOI pays Rs 400 to HDFC via Amazon_Pay
-
-Thank you for using Cash Flow Minimizer System !!
 
 */
