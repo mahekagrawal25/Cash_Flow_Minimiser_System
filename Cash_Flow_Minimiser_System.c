@@ -36,7 +36,6 @@ int main(void) {
     Bank input[MAX_BANKS];
     int graph[MAX_BANKS][MAX_BANKS] = {0};
 
-    printf("\nPayment modes: GPay, PhonePe, Paytm, Amazon_Pay, PayPal\n\n");
     printf("Enter the details of the banks:\n");
 
     for (int i = 0; i < numBanks; i++) {
